@@ -1,0 +1,43 @@
+<ion-view view-title="MadReceipts - Sign-In">
+
+  <ion-content>
+
+
+    <div align="right">
+
+      <form method="post" action="http://localhost:5000/api/facebook/login">
+        <input type="hidden" name='redirectTo' id='redirectTo' type='text' value='http://localhost:8100/#/start-page'>
+        <!--<input type="hidden" name='redirectTo' id='redirectTo' type='text' value='{{redirectPage}}'>-->
+        <input type="submit" name="send" value="">
+      </form>
+    </div>
+
+    <div style="width: 287px; height: 56px;" class="spacer"></div>
+
+    </div>
+    <div class="item item-text-wrap">
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">Email</span>
+          <input type="email" ng-model="user.email">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Password</span>
+          <input type="password" ng-model="user.password">
+        </label>
+      </div>
+      <div>
+
+        <button class="button button-block button-dark" ng-click="signIn(user.email, user.password)">
+          Sign-In
+        </button>
+
+        <p class="text-center">
+          <a href="#/forgot-password">Forgot password</a>
+        </p>
+      </div>
+      </div>
+
+
+  </ion-content>
+</ion-view>
