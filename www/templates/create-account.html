@@ -1,0 +1,28 @@
+<ion-view style="" title="Create account">
+  <ion-content class="has-header" overflow-scroll="true" padding="true">
+    <div class="logo">
+      <img src="img/icon.png" alt="test" height="250" width="250">
+    </div>
+    <form style="" class="list">
+      <ion-list style="">
+       <!-- <label style="" class="item item-input">
+          <span class="input-label">Name</span>
+          <input placeholder="" type="text" ng-model="user.name">
+        </label>-->
+        <label style="" class="item item-input">
+          <span class="input-label">Email</span>
+          <input placeholder="" type="email" ng-model="user.email">
+        </label>
+        <label style="" class="item item-input">
+          <span class="input-label">Password</span>
+          <input placeholder="" type="password" ng-model="user.password">
+        </label>
+        <label style="" class="item item-input">
+          <span class="input-label">Confirm Password</span>
+          <input placeholder="" type="password" ng-model="user.password_confirmed">
+        </label>
+      </ion-list>
+      <button class="button button-energized  button-block" id="createAccount-button3" ng-click="signUp(user.email, user.password,user.password_confirmed)">Sign up</button>
+    </form>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,43 @@
+<ion-view view-title="New Receipts">
+  <ion-nav-buttons side="left">
+    <button class="button icon ion-home" ng-click="goHome()">
+    </button>
+  </ion-nav-buttons>
+  <ion-nav-buttons side="right">
+    <button class="button icon ion-log-out" ng-click="signInOut()">
+      Log in / out
+    </button>
+  </ion-nav-buttons>
+
+  <ion-content class="padding">
+
+
+    <div class="button-bar">
+      <button class="button button-dark  button-block icon ion-ios-camera" id="addReceipts-photo"
+              ng-click="takePicture()"></button>
+      <button class="button button-energized  button-block icon ion-images" id="addReceipts-gallery"
+              ng-click="getPicturesFromGallery()"></button>
+      <button class="button button-dark  button-block icon ion-upload last" id="addReceipts-upload" onclick="$(function(event){$('#upload:hidden').trigger('click');})"></button>
+      <input type="file" class="upload" id="upload" onchange="angular.element(this).scope().getFiles(this.files)" multiple />
+
+    </div>
+
+
+    <div class="spacer"></div>
+
+    <div class="row gallery">
+      <div class="col col-33" ng-repeat="img in receiptsImagesList">
+        <img src="{{img}}" style="width: 100%" ng-click="deleteImage(receiptsImagesList.indexOf(img))">
+      </div>
+    </div>
+
+    <div class="spacer"></div>
+    <div style="" class="button-bar">
+      <button class="button button-stable button-block" id="addReceipts-cancel" ng-click="deleteAllImages()">Cancel
+      </button>
+      <button class="button button-dark  button-block last" style="font-weight:bolder;" id="addReceipts-add"
+              ng-click="save()">Add
+      </button>
+    </div>
+  </ion-content>
+</ion-view>

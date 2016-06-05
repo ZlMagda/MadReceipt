@@ -1,5 +1,5 @@
 angular.module('sign.in.controllers', [])
-  .controller('SignInCtrl', function ($timeout, $scope, $state, $window,$http) {
+  .controller('SignInCtrl', function ($timeout, $scope, $window,$http, ReceiptsServer, DefService) {
 
 
 
@@ -39,12 +39,10 @@ angular.module('sign.in.controllers', [])
         if (response.data != '"Login or password is incorrect."') {
 
           $window.sessionStorage.token = response.data.token;
-
-          $state.go("tab.dash")
-          //DefService.goTo('tab.newReceipt');
+          DefService.goTo('tab.newReceipt');
 
         } else {
-          ///DefService.messagesMaker(response.data);
+          DefService.messagesMaker(response.data);
         }
       }, function (error) {
 

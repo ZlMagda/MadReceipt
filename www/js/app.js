@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.services',  'start.page.controllers', 'sign.in.controllers'])
+angular.module('starter', ['ionic',  'ngCordova', 'starter.controllers', 'starter.services',  'ngCordova', 'default.services', 'start.page.controllers', 'sign.in.controllers', 'account.controllers', 'newReceipts.controllers', 'receipt.controllers', 'serverUpload.controllers', 'receiptsList.controllers', 'statistics.controllers', 'server.services', 'photos.and.files.services', 'database.services'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -51,7 +51,56 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services',  
     templateUrl: 'templates/tabs.html'
   })
 
+    .state('tab.newReceipt', {
+      url: '/newReceipt',
+      views: {
+        'tab-new-receipts': {
+          templateUrl: 'templates/tab-new-receipts.html',
+          controller: 'NewReceiptsCtrl'
+        }
+      }
+    })
   // Each tab has its own nav history stack:
+
+    .state('tab.receiptsList', {
+      url: '/receiptsList',
+      views: {
+        'tab-receipts-list': {
+          templateUrl: 'templates/tab-receipts-list.html',
+          controller: 'ReceiptsListCtrl'
+        }
+      }
+    })
+
+    .state('tab.receipt-detail', {
+      url: '/receipts/:receiptId',
+      views: {
+        'tab-receipts-list': {
+          templateUrl: 'templates/receipt-detail.html',
+          controller: 'ReceiptCtrl'
+        }
+      }
+    })
+
+    .state('tab.receipt-upload', {
+      url: '/upload',
+      views: {
+        'tab-receipts-list': {
+          templateUrl: 'templates/receipts-server-upload.html',
+          controller: 'ServerUploadCtrl'
+        }
+      }
+    })
+
+    .state('tab.statistics', {
+      url: '/statistics',
+      views: {
+        'tab-statistics': {
+          templateUrl: 'templates/tab-statistics.html',
+          controller: 'StatisticsCtrl'
+        }
+      }
+    })
 
   .state('tab.dash', {
     url: '/dash',

@@ -1,0 +1,32 @@
+<ion-view style="" title="Select receipts" ng-init="getOfflineReceipts()">
+  <ion-content class="has-header" overflow-scroll="true" padding="true">
+
+    <button class="button button-energized  button-block" style="border-radius:-1px -1px -1px -1px;"
+            id="checkAll-button" ng-click="checkAll()">Check all
+    </button>
+
+    <ion-list class="item-remove-animate item-thumbnail-right item-icon-right" type="item-text-wrap">
+
+      <ion-checkbox ng-repeat="receipt in receipts"
+                    ng-model="selectedReceipts[receipt._id]"
+                    ng-checked="receipt.checked">
+        <img ng-src="{{receipt.att}}" class="select-receipt">
+        <h2>Company: {{receipt.companyName}}</h2>
+
+        <p><b>Category:</b> {{receipt.category}} &nbsp;&nbsp;&nbsp;&nbsp;<b>Date:</b> {{receipt.dateReceipt}}</p>
+        <p><b>Total:</b> {{receipt.price}}</p></ion-checkbox>
+      </ion-checkbox>
+    </ion-list>
+
+
+    <div style="" class="button-bar">
+      <button class="button button-stable button-block" id="addReceiptsToServer-cancel" ng-click="cancelSending()">
+        Cancel
+      </button>
+      <button class="button button-energized  button-block" style="border-radius:-1px -1px -1px -1px;"
+              id="updateReceipt-button" ng-click="sendToServer()">Send
+      </button>
+    </div>
+
+  </ion-content>
+</ion-view>

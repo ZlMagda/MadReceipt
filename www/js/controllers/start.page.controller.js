@@ -1,6 +1,6 @@
 angular.module('start.page.controllers', [])
 
-  .controller('StartPageCtrl', function ($scope, $state, $window, $http, $location, $stateParams) {
+  .controller('StartPageCtrl', function ($scope, $state, $window, $http, $location, $stateParams, ReceiptsServer, DefService) {
 
     /*$scope.redirectPage = $location;*/
 
@@ -10,7 +10,7 @@ angular.module('start.page.controllers', [])
         $window.sessionStorage.token = $location.search().token;
 
 
-        /*ReceiptsServer.loginUserWithFacebook().then(function (response) {
+        ReceiptsServer.loginUserWithFacebook().then(function (response) {
 
           if (response.data != '"Login or password is incorrect."') {
             $scope.goTo('tab.newReceipt');
@@ -20,7 +20,7 @@ angular.module('start.page.controllers', [])
           }
         }, function (error) {
           console.log(error);
-        });*/
+        });
 
 
       }
@@ -28,7 +28,7 @@ angular.module('start.page.controllers', [])
 
 
     $scope.goTo = function (destinationPage) {
-      $state.go(destinationPage);
+      DefService.goTo(destinationPage);
     };
 
   });

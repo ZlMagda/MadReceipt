@@ -1,0 +1,48 @@
+<ion-view view-title="Statistics">
+  <ion-nav-buttons side="left">
+    <button class="button icon ion-home" ng-click="goHome()">
+    </button>
+  </ion-nav-buttons>
+  <ion-nav-buttons side="right">
+    <button class="button icon ion-log-out" ng-click="signInOut()">
+      Log in / out
+    </button>
+  </ion-nav-buttons>
+  <ion-content>
+
+   
+    <h5>{{errorMessage}}</h5>
+    <div class="card">
+      <div class="item item-divider">
+        Total by Date
+      </div>
+      <div class="item item-text-wrap">
+        <canvas id="line" class="chart chart-line" data="receiptsTotalByDate" labels="dates" legend="true"
+                series="series" options="{showTooltips: false}"></canvas>
+      </div>
+      <h6>Total of all receipts: {{totalSum}}</h6>
+    </div>
+    <div class="card">
+      <div class="item item-divider">
+        <h2>Total by company</h2>
+      </div>
+      <div class="item item-text-wrap">
+        <canvas id="bar1" class="chart chart-bar" data="receiptsTotalByCompany" labels="companies" legend="true"
+                series="series" options="{showTooltips: false}"></canvas>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="item item-divider">
+        <h2>Number of receipts by Category</h2>
+      </div>
+      <div class="item item-text-wrap">
+        <canvas id="bar2" class="chart chart-bar" data="receiptsByCategory" labels="categories" legend="true"
+                series="series" options="{showTooltips: false}"></canvas>
+      </div>
+    </div>
+
+
+  </ion-content>
+</ion-view>

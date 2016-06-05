@@ -1,1 +1,137 @@
-/* Empty. Add your own CSS if you like */
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+
+  background-image: url("img/files-icon.jpg");
+
+}
+
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+input[type=submit] {
+  background-image: url("img/facebook-login-blue.png");
+  width: 150px;
+  padding: 5px 15px;
+  font-style: oblique;
+  border: 0 none;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.gallery {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border: 1px solid rgb(238, 238, 238);
+  min-height:60vh;
+
+}
+
+.customized-button-bar{
+  float: right;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+div.logo {
+  /*  line-height: 250px;*/
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 3px;
+  text-align: center;
+}
+
+div.spacer {
+  width: 287px;
+  height: 56px;
+}
+
+.button {
+  font-weight:bold;
+}
+
+.button-bar > .button.last {
+  border-radius: 0 4px 4px 0;
+}
+
+#upload {
+  display: none;
+}
+
+.md-scroll-mask {
+  position: initial;
+}
+
+.center{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.platform-android .bar-subheader.has-tabs-top{
+  top:93px !important;
+}
+
+.platform-android .has-subheader.has-tabs-top{
+  top:137px;
+}
+
+.fb-img img {
+  width: 20px;
+}
+
+.textarea {
+  height: fit-content;
+  max-width: 1000px;
+  font-weight: 400;
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+  width: 100%;
+
+  line-height: 2em;
+
+  -webkit-transition: height 2s ease;
+  -moz-transition: height 2s ease;
+  -ms-transition: height 2s ease;
+  -o-transition: height 2s ease;
+  transition: height 2s ease;
+}
+
+* {
+  -webkit-font-smoothing: antialiased !important;
+}

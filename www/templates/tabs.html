@@ -3,22 +3,33 @@ Create tabs with an icon and label, using the tabs-positive style.
 Each tab's child <ion-nav-view> directive will have its own
 navigation history that also transitions its views in and out.
 -->
-<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+<ion-view>
+  <ion-nav-buttons side="right">
+    <button ui-sref="login" class="button button-clear" ng-click="logout()">
+      <i class="icon ion-log-out"></i>
+    </button>
+  </ion-nav-buttons>
 
-  <!-- Dashboard Tab -->
-  <ion-tab title="Status" icon-off="ion-ios-pulse" icon-on="ion-ios-pulse-strong" href="#/tab/dash">
-    <ion-nav-view name="tab-dash"></ion-nav-view>
-  </ion-tab>
+  <ion-tabs class="tabs-icon-top tabs-color-active-positive">
 
-  <!-- Chats Tab -->
-  <ion-tab title="Chats" icon-off="ion-ios-chatboxes-outline" icon-on="ion-ios-chatboxes" href="#/tab/chats">
-    <ion-nav-view name="tab-chats"></ion-nav-view>
-  </ion-tab>
+    <!-- New Receipts Tab -->
+    <ion-tab title="New Receipts" icon-off="ion-load-a" icon-on="ion-load-a" href="#/tab/newReceipt">
 
-  <!-- Account Tab -->
-  <ion-tab title="Account" icon-off="ion-ios-gear-outline" icon-on="ion-ios-gear" href="#/tab/account">
-    <ion-nav-view name="tab-account"></ion-nav-view>
-  </ion-tab>
+      <ion-nav-view name="tab-new-receipts"></ion-nav-view>
+    </ion-tab>
+
+    <!-- Receipts Tab -->
+    <ion-tab title="My Receipts" icon-off="ion-social-usd-outline" icon-on="ion-social-usd"
+             href="#/tab/receiptsList">
+      <ion-nav-view name="tab-receipts-list"></ion-nav-view>
+    </ion-tab>
 
 
-</ion-tabs>
+    <!-- Statistics Tab -->
+    <ion-tab title="Statistics" icon-off="ion-stats-bars" icon-on="ion-stats-bars" href="#/tab/statistics">
+      <ion-nav-view name="tab-statistics"></ion-nav-view>
+    </ion-tab>
+
+
+  </ion-tabs>
+</ion-view>

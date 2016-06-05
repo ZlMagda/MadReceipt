@@ -1,0 +1,52 @@
+
+<ion-view view-title="Receipt details">
+  <ion-content class="padding" >
+    <button class="button ion-android-delete" ng-click="removeReceipt(receipt._id)">&nbsp;&nbsp;&nbsp;Delete this receipt</button>
+
+
+    <form style="" class="list">
+    <ion-list style="">
+
+      <div class="test1"><img ng-src="{{receipt.att}}" style="width: 200px; height: 200px"></div>
+
+      <label style="" class="item item-input">
+        <span class="input-label">Category</span>
+        <input placeholder="" type="text" ng-model="receipt.category" >
+      </label>
+      <label style="" class="item item-input">
+        <span class="input-label">Company</span>
+        <textarea placeholder="" type="text" rows="5" ng-model="receipt.companyName">{{receipt.companyName}}</textarea>
+      </label>
+      <label style="" class="item item-input">
+        <span class="input-label">NIP</span>
+        <input placeholder="" type="text" ng-model="receipt.nip">
+      </label>
+      <label style="" class="item item-input">
+        <span class="input-label">Date</span>
+        <input placeholder="" type="date" ng-model="receipt.dateReceipt">
+      </label>
+      <label style="" class="item item-input">
+        <span class="input-label">Created</span>
+        <input placeholder="" type="text" ng-model="receipt.dateCreation" disabled>
+      </label>
+      <label style="" class="item item-input">
+        <span class="input-label">Last modified</span>
+        <input placeholder="" type="text" ng-model="receipt.dateLastModification" disabled>
+      </label>
+      <label style="" class="item item-input">
+        <span class="input-label">Total</span>
+        <input placeholder="" type="number" ng-model="receipt.price">
+      </label>
+      <label style="" class="item item-input">
+        <span class="input-label">Description</span>
+        <textarea placeholder="" type="text" rows="5" ng-model="receipt.textReceipt">{{receipt.textReceipt}}</textarea>
+      </label>
+    </ion-list>
+    <button class="button button-energized  button-block" id="updateReceipt-button" ng-click="updateReceipt(receipt)">Update</button>
+      <button class="button button-energized  button-block" id="updateReceiptOnServer-button"
+              ng-click="updateReceiptOnServer(receipt)">Update online
+      </button>
+    </form>
+
+  </ion-content>
+</ion-view>
