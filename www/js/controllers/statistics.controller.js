@@ -1,5 +1,5 @@
 angular.module('statistics.controllers', [])
-  .controller('StatisticsCtrl', function ($scope, $window,$ionicHistory, DatabaseService, DefService) {
+  .controller('StatisticsCtrl', function ($scope, $window, $ionicHistory, DatabaseService, DefService) {
 
     $scope.$on('$ionicView.enter', function () {
 
@@ -12,7 +12,7 @@ angular.module('statistics.controllers', [])
     };
 
 
-    $scope.$on( "$ionicView.leave", function( scopes, states ) {
+    $scope.$on("$ionicView.leave", function (scopes, states) {
       console.log("in leave");
 
       $ionicHistory.clearCache();
@@ -21,37 +21,36 @@ angular.module('statistics.controllers', [])
     });
 
 
-/*    var canvas = document.getElementById('updating-chart'),
-      ctx = canvas.getContext('2d'),
-      startingData = {
-        labels: [1, 2, 3, 4, 5, 6, 7],
-        datasets: [
-          {
-            fillColor: "rgba(220,220,220,0.2)",
-            strokeColor: "rgba(220,220,220,1)",
-            pointColor: "rgba(220,220,220,1)",
-            pointStrokeColor: "#fff",
-            data: [65, 59, 80, 81, 56, 55, 40]
-          },
-          {
-            fillColor: "rgba(151,187,205,0.2)",
-            strokeColor: "rgba(151,187,205,1)",
-            pointColor: "rgba(151,187,205,1)",
-            pointStrokeColor: "#fff",
-            data: [28, 48, 40, 19, 86, 27, 90]
-          }
-        ]
-      },
-      latestLabel = startingData.labels[6];
+    /*    var canvas = document.getElementById('updating-chart'),
+     ctx = canvas.getContext('2d'),
+     startingData = {
+     labels: [1, 2, 3, 4, 5, 6, 7],
+     datasets: [
+     {
+     fillColor: "rgba(220,220,220,0.2)",
+     strokeColor: "rgba(220,220,220,1)",
+     pointColor: "rgba(220,220,220,1)",
+     pointStrokeColor: "#fff",
+     data: [65, 59, 80, 81, 56, 55, 40]
+     },
+     {
+     fillColor: "rgba(151,187,205,0.2)",
+     strokeColor: "rgba(151,187,205,1)",
+     pointColor: "rgba(151,187,205,1)",
+     pointStrokeColor: "#fff",
+     data: [28, 48, 40, 19, 86, 27, 90]
+     }
+     ]
+     },
+     latestLabel = startingData.labels[6];
 
-    var myLiveChart = new Chart(ctx).Line(startingData, {animationSteps: 15});
+     var myLiveChart = new Chart(ctx).Line(startingData, {animationSteps: 15});
 
 
-    setInterval(function(){
-      myLiveChart.addData([Math.random() * 100, Math.random() * 100], ++latestLabel);
-      myLiveChart.removeData();
-    }, 5000);*/
-
+     setInterval(function(){
+     myLiveChart.addData([Math.random() * 100, Math.random() * 100], ++latestLabel);
+     myLiveChart.removeData();
+     }, 5000);*/
 
 
     var createDataForCategoryChart = function () {
@@ -76,14 +75,17 @@ angular.module('statistics.controllers', [])
 
           for (var i = 0; i < receiptsList.length; i++) {
 
-            if(receiptsList[i].dateReceipt != undefined || receiptsList[i].dateReceipt != undefined) {
+            if (receiptsList[i].dateReceipt != undefined || receiptsList[i].dateReceipt != undefined) {
               dateList.push(formShortDate(receiptsList[i].dateReceipt));
             }
 
+            if (receiptsList[i].companyName != undefined) {
+              companyList.push(receiptsList[i].companyName);
+            }
 
-            companyList.push(receiptsList[i].companyName);
-
-            totalSum = totalSum + receiptsList[i].price;
+            if (receiptsList[i].price != undefined) {
+              totalSum = totalSum + receiptsList[i].price;
+            }
 
             if (categoriesList.indexOf(receiptsList[i].category) == -1) {
               categoriesList.push(receiptsList[i].category);
@@ -131,13 +133,9 @@ angular.module('statistics.controllers', [])
           var dttx = document.getElementById("date-chart").getContext("2d");
 
 
-
-          respondCategoriesCanvas(categoriesChartData(categoriesList,receiptsNoByCategory));
+          respondCategoriesCanvas(categoriesChartData(categoriesList, receiptsNoByCategory));
           respondCompaniesCanvas(companyChartData(companyList, receiptsTotalByCompany));
           respondDateCanvas(dateChartData(dateList, receiptsTotalByDate), dtt);
-
-
-
 
 
           console.log(categoriesList);
@@ -147,10 +145,6 @@ angular.module('statistics.controllers', [])
           console.log(dateList);
           console.log(receiptsTotalByDate);
 
-          //console.log($scope.categories);
-          //console.log(receiptsTotalByDate);
-          //console.log(dateList);
-          //console.log($scope.receiptsTotalByDate);
 
           $scope.totalSum = totalSum;
 
@@ -203,7 +197,7 @@ angular.module('statistics.controllers', [])
        console.log(date.getFullYear());
        console.log(date.getMonth()+1);
        console.log(date.getDate());*/
-      var shortDate = date.getFullYear() + "-" + (date.getMonth()+1) + "-" + date.getDate();
+      var shortDate = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
       return shortDate;
     };
 
@@ -214,18 +208,18 @@ angular.module('statistics.controllers', [])
         var dateB = a.split("-");
 
         if (dateA[0] < dateB[0]) {
-          if(dateA[1] < dateB[1]){
-            if(dateA[2] < dateB[2]){
+          if (dateA[1] < dateB[1]) {
+            if (dateA[2] < dateB[2]) {
               return -1;
-            } else if(dateA[2] > dateB[2]){
+            } else if (dateA[2] > dateB[2]) {
               return 1;
             }
-          } else if(dateA[1] > dateB[1]){
+          } else if (dateA[1] > dateB[1]) {
             return 1;
           }
           return 0;
 
-        } else if(dateA[0] > dateB[0]){
+        } else if (dateA[0] > dateB[0]) {
           return 1;
         }
 
@@ -266,8 +260,7 @@ angular.module('statistics.controllers', [])
     };
 
 
-
-    var categoriesChartData = function(categories,receiptsNoByCategory){
+    var categoriesChartData = function (categories, receiptsNoByCategory) {
       return {
         labels: categories,
         datasets: [{
@@ -277,7 +270,7 @@ angular.module('statistics.controllers', [])
       }
     };
 
-    var options = {animation : false};
+    var options = {animation: false};
 
     //Get the context of the canvas element we want to select
     var c = $('#category-chart');
@@ -288,15 +281,12 @@ angular.module('statistics.controllers', [])
 
     function respondCategoriesCanvas(data) {
       c.attr('width', jQuery("#categoryDiv").width());
-      c.attr('height', jQuery("#categoryDiv").height()*3);
+      c.attr('height', jQuery("#categoryDiv").height() * 3);
       newCategoriesChart = new Chart(ct).Bar(data, options);
     }
 
 
-
-
-
-    var companyChartData = function(companies,receiptsNoByCompany){
+    var companyChartData = function (companies, receiptsNoByCompany) {
       return {
         labels: companies,
         datasets: [{
@@ -316,20 +306,16 @@ angular.module('statistics.controllers', [])
     function respondCompaniesCanvas(data) {
 
 
-
       console.log("in resize");
       comp.attr('width', jQuery("#companyDiv").width());
-      comp.attr('height', jQuery("#companyDiv").height()*3);
+      comp.attr('height', jQuery("#companyDiv").height() * 3);
       console.log(jQuery("#companyDiv").width());
-      console.log(jQuery("#companyDiv").width()*3);
+      console.log(jQuery("#companyDiv").width() * 3);
       newCompaniesChart = new Chart(compt).Bar(data, options);
     }
 
 
-
-
-
-    var dateChartData = function(dates,totalNoByDate){
+    var dateChartData = function (dates, totalNoByDate) {
       return {
         labels: dates,
         datasets: [{
@@ -341,12 +327,11 @@ angular.module('statistics.controllers', [])
     };
 
 
-
     function respondDateCanvas(data, dtt) {
       comp.attr('width', jQuery("#dateDiv").width());
-      comp.attr('height', jQuery("#dateDiv").height()*3);
+      comp.attr('height', jQuery("#dateDiv").height() * 3);
 
-        newDateChart = new Chart(dtt).Line(data, options);
+      newDateChart = new Chart(dtt).Line(data, options);
 
     }
 

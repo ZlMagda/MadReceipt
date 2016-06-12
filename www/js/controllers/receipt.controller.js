@@ -62,6 +62,17 @@ angular.module('receipt.controllers', [])
       });
     };
 
+    $scope.updateReceiptWithoutCategory = function (receipt) {
+      DatabaseService.updateWithoutCategory(receipt).then(function () {
+        DefService.messagesMaker("Receipt updated");
+        DefService.goTo('tab.receiptsList');
+
+      }, function (error) {
+        console.log(error);
+
+      });
+    };
+
     $scope.updateReceiptOnServer = function (receipt) {
       console.log(receipt.dateReceipt);
       if (receipt.server_id != 0) {
@@ -71,7 +82,8 @@ angular.module('receipt.controllers', [])
         } else {
           ReceiptsServer.updateReceipt(receipt).then(function () {
             DefService.messagesMaker("Receipt updated");
-            $scope.updateReceipt();
+            $scope.updateReceiptWithoutCategory();
+            DefService.goTo('tab.receiptsList');
 
           }, function (error) {
             console.log(error);

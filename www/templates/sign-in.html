@@ -5,13 +5,13 @@
 
     <div>
 
-      <form method="post" action="http://localhost:5000/api/facebook/login">
-        <input type="hidden" name='redirectTo' id='redirectTo' type='text' value='http://localhost:8100/#/start-page'>
+      <form method="post" action="https://walletapplication.herokuapp.com/api/facebook/login">
+        <input type="hidden" name='redirectTo' id='redirectTo' type=pageUrl() value=pageUrl()>
         <!--<input type="hidden" name='redirectTo' id='redirectTo' type='text' value='{{redirectPage}}'>-->
       </form>
     </div>
 
-    </div>
+
     <div class="item item-text-wrap">
       <div class="list">
         <label class="item item-input">

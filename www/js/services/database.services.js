@@ -233,6 +233,21 @@ angular.module('database.services', ['ionic', 'ngCordova'])
         return deferred.promise;
       },
 
+      updateWithoutCategory: function(receipt){
+
+
+        var deferred = $q.defer();
+        var receiptsDB = createOrOpenDB();
+
+        receiptsDB.transaction(function (tx) {
+          tx.executeSql("UPDATE receipts SET " +
+              "companyName=(?), nip=(?), dateReceipt=(?), price=(?), textReceipt=(?), dateCreation=(?), dateLastModification=(?) WHERE id= (?)",
+              [receipt.companyName, receipt.nip, receipt.dateReceipt, receipt.price, receipt.textReceipt, receipt.dateCreation, receipt.dateLastModification, receipt._id]);
+
+        }, deferred.reject, deferred.resolve);
+        return deferred.promise;
+      },
+
       updateOnlineStatus: function (receiptId) {
 
 

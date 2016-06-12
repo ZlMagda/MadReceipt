@@ -24,9 +24,10 @@
                 type="item-text-wrap" href="#/tab/receipts/{{receipt._id}}">
         <img ng-src="{{receipt.att}}">
 
-        <h2>Company: {{receipt.companyName}}</h2>
+        <h2>Company: {{receipt.companyName}}</h2></br>
 
-        <p><b>Category:</b> {{receipt.category}} &nbsp;&nbsp;&nbsp;&nbsp;<b>Date:</b> {{receipt.dateReceipt}}</p>
+        <p><b>Category:</b> {{receipt.category}}</p>
+        <p><b>Date:</b> {{receipt.dateReceipt}}</p>
         <p><b>Total:</b> {{receipt.price}}</p>
         <p><b style="color: red">{{receipt.online==0 ? 'Receipt is offline':''}}</b>
           <b style="color: limegreen">{{receipt.online==1 ? 'Receipt is online' : ''}}</b></p>

@@ -1,5 +1,26 @@
 angular.module('sign.in.controllers', [])
-  .controller('SignInCtrl', function ($timeout, $scope, $window, $http, ReceiptsServer, DefService) {
+  .controller('SignInCtrl', function ($timeout, $scope, $window, $location, $http, ReceiptsServer, DefService) {
+
+    $scope.$on('$ionicView.enter', function () {
+      console.log( $location.absUrl());
+      console.log($location.path());
+
+      var url= $location.absUrl();
+      url = url.substring(0, url.length - 7);
+      url = url + "start-page";
+      console.log(url);
+
+    });
+
+    $scope.pageUrl = function(){
+      console.log( $location.absUrl());
+
+      var url= $location.absUrl();
+      url = url.substring(0, url.length - 7);
+
+      url = url + "start-page";
+      return url;
+    };
 
 
     $scope.signIn = function (email, password) {

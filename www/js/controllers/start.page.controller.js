@@ -2,7 +2,6 @@ angular.module('start.page.controllers', [])
 
   .controller('StartPageCtrl', function ($scope, $state, $window, $http, $location, $stateParams, ReceiptsServer, DefService) {
 
-    /*$scope.redirectPage = $location;*/
 
     $scope.$on('$ionicView.enter', function () {
 
