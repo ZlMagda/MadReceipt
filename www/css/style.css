@@ -27,14 +27,10 @@ button.right-buttons{
 
 
 input[type=submit] {
-  background-image: url("img/facebook-login-blue.png");
-  width: 150px;
-  padding: 5px 15px;
-  font-style: oblique;
-  border: 0 none;
-  cursor: pointer;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  background-image: url("img/facebook.png");
+  background-repeat: no-repeat;
+  background-size: 47px;
+  background-position: 42% center;
 }
 
 .gallery {
@@ -61,7 +57,7 @@ div.logo {
 
 div.spacer {
   width: 287px;
-  height: 56px;
+  height: 104px;
 }
 
 .button {
