@@ -10,6 +10,9 @@ angular.module('receipt.controllers', [])
 
           DefService.hide();
           $scope.receipt = receipt;
+          if(receipt.dateReceipt != undefined){
+            $scope.receipt.dateReceipt =new Date(receipt.dateReceipt);
+          }
 
         }, function (error) {
           DefService.hide();
@@ -23,14 +26,28 @@ angular.module('receipt.controllers', [])
     });
 
 
-    $scope.removeReceipt = function (receiptId) {
-      DatabaseService.remove(receiptId).then(function () {
-        $state.go('tab.receiptsList');
+    $scope.removeReceipt = function (receipt) {
 
-      }, function (error) {
-        console.log(error);
+      if(receipt.online == 1){
+        ReceiptsServer.deleteReceipt(receipt.server_id).then(function (message) {
+          DefService.goTo('tab.receiptsList');
 
-      });
+        }, function (error) {
+          if (error.data == "Unauthorized") {
+            DefService.signInMessage();
+          }
+          console.log(error);
+
+        });
+
+      } else {
+
+        DatabaseService.remove(receipt._id).then(function () {
+          $state.go('tab.receiptsList');
+        }, function (error) {
+          console.log(error);
+        });
+      }
     };
 
 
@@ -46,10 +63,11 @@ angular.module('receipt.controllers', [])
     };
 
     $scope.updateReceiptOnServer = function (receipt) {
+      console.log(receipt.dateReceipt);
       if (receipt.server_id != 0) {
         if ($window.sessionStorage.token == undefined) {
-          DefService.messagesMaker("You're not logged in");
-          DefService.goTo('signin');
+          DefService.signInMessage();
+
         } else {
           ReceiptsServer.updateReceipt(receipt).then(function () {
             DefService.messagesMaker("Receipt updated");

@@ -10,35 +10,37 @@
   </ion-nav-buttons>
   <ion-content>
 
-   
-    <h5>{{errorMessage}}</h5>
+    <h1>Simple Line chart for Ionic</h1>
+    <canvas id="bar" class="chart chart-line" data="graph.data" labels="graph.labels" series='graph.series' height="50"></canvas>
+
     <div class="card">
-      <div class="item item-divider">
-        Total by Date
+      <div class="item item-divider item-energized">
+        Total by date
       </div>
       <div class="item item-text-wrap">
-        <canvas id="line" class="chart chart-line" data="receiptsTotalByDate" labels="dates" legend="true"
-                series="series" options="{showTooltips: false}"></canvas>
+        <canvas id="line" class="chart chart-line" data="receiptsTotalByDate" labels="dates" legend="true" chart-legend="true" chart-series="series"
+                chart-click="onClick" responsive="true"
+                series="series" options="{showTooltips: true}" colours="medals_colours" ></canvas>
       </div>
       <h6>Total of all receipts: {{totalSum}}</h6>
     </div>
     <div class="card">
-      <div class="item item-divider">
-        <h2>Total by company</h2>
+      <div class="item item-divider item-dark">
+        Total by company
       </div>
       <div class="item item-text-wrap">
-        <canvas id="bar1" class="chart chart-bar" data="receiptsTotalByCompany" labels="companies" legend="true"
+        <canvas id="bar1" class="chart chart-bar" data="receiptsTotalByCompany" labels="companies" legend="true" responsive="true" colours="[{fillColor:['#DAF7A6', '#FFC300', '#FF5733', '#C70039', '#581845']}]"
                 series="series" options="{showTooltips: false}"></canvas>
       </div>
     </div>
 
 
     <div class="card">
-      <div class="item item-divider">
-        <h2>Number of receipts by Category</h2>
+      <div class="item item-divider item-energized">
+        Number of receipts by category
       </div>
       <div class="item item-text-wrap">
-        <canvas id="bar2" class="chart chart-bar" data="receiptsByCategory" labels="categories" legend="true"
+        <canvas id="bar2" class="chart chart-bar" data="receiptsByCategory" labels="categories" legend="true" responsive="true" colours="[{fillColor:[ '#FF5733', '#C70039','#DAF7A6']}]"
                 series="series" options="{showTooltips: false}"></canvas>
       </div>
     </div>

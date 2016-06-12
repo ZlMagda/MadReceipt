@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic',  'ngCordova', 'starter.controllers', 'starter.services',  'ngCordova', 'default.services', 'start.page.controllers', 'sign.in.controllers', 'account.controllers', 'newReceipts.controllers', 'receipt.controllers', 'serverUpload.controllers', 'receiptsList.controllers', 'statistics.controllers', 'server.services', 'photos.and.files.services', 'database.services'])
+angular.module('starter', ['ionic',  'ngCordova', 'jkuri.datepicker', 'chart.js', 'ion-floating-menu', 'starter.controllers', 'starter.services',  'ngCordova', 'default.services', 'start.page.controllers', 'sign.in.controllers', 'account.controllers', 'newReceipts.controllers', 'receipt.controllers', 'serverUpload.controllers', 'receiptsList.controllers', 'statistics.controllers', 'server.services', 'photos.and.files.services', 'database.services'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -42,6 +42,12 @@ angular.module('starter', ['ionic',  'ngCordova', 'starter.controllers', 'starte
       url: '/sign-in',
       templateUrl: 'templates/sign-in.html',
       controller: 'SignInCtrl'
+    })
+
+    .state('createAccount', {
+      url: '/create-account',
+      templateUrl: 'templates/create-account.html',
+      controller: 'CreateAccountCtrl'
     })
 
   // setup an abstract state for the tabs directive
@@ -100,46 +106,7 @@ angular.module('starter', ['ionic',  'ngCordova', 'starter.controllers', 'starte
           controller: 'StatisticsCtrl'
         }
       }
-    })
-
-  .state('tab.dash', {
-    url: '/dash',
-    views: {
-      'tab-dash': {
-        templateUrl: 'templates/tab-dash.html',
-        controller: 'DashCtrl'
-      }
-    }
-  })
-
-  .state('tab.chats', {
-      url: '/chats',
-      views: {
-        'tab-chats': {
-          templateUrl: 'templates/tab-chats.html',
-          controller: 'ChatsCtrl'
-        }
-      }
-    })
-    .state('tab.chat-detail', {
-      url: '/chats/:chatId',
-      views: {
-        'tab-chats': {
-          templateUrl: 'templates/chat-detail.html',
-          controller: 'ChatDetailCtrl'
-        }
-      }
-    })
-
-  .state('tab.account', {
-    url: '/account',
-    views: {
-      'tab-account': {
-        templateUrl: 'templates/tab-account.html',
-        controller: 'AccountCtrl'
-      }
-    }
-  });
+    });
 
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/start-page');

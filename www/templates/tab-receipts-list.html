@@ -8,32 +8,28 @@
       Log in / out
     </button>
   </ion-nav-buttons>
+
+  <ion-floating-menu  has-footer="true" menu-open-color="#ffc900" menu-color="#444" menu-icon="ion-android-cloud">
+  <ion-floating-item icon="ion-android-upload" button-color="#444" click="uploadReceipts()"></ion-floating-item>
+  <ion-floating-item icon="ion-android-download" button-color="#444" click="downloadReceipts()"></ion-floating-item>
+</ion-floating-menu>
+
+
   <ion-content>
-    <div class="button-bar" style="">
-      <button class='button button-dark item-button-right ion-ios-cloud-upload' ng-click="uploadReceipts()">&nbsp;&nbsp;Upload
-        Receipts to server
-      </button>
-      <button class='button button-dark item-button-right ion-ios-cloud-download' ng-click="downloadReceipts()">&nbsp;&nbsp;Download
-
-      </button>
-
-
-    </div>
-
 
     <h3>Receipts no: {{receiptsNo}}</h3>
     <h2>{{errorMessage}}</h2>
     <ion-list>
-      <!--<ion-item auto-list-divider auto-list-divider-value="{{receipt.category}}"
-                class="item-remove-animate item-thumbnail-left item-icon-right" ng-repeat="receipt in receipts"
-                type="item-text-wrap" href="#/tab/receipts/{{receipt._id}}">-->
       <ion-item class="item-remove-animate item-thumbnail-left item-icon-right" ng-repeat="receipt in receipts"
                 type="item-text-wrap" href="#/tab/receipts/{{receipt._id}}">
         <img ng-src="{{receipt.att}}">
+
         <h2>Company: {{receipt.companyName}}</h2>
 
         <p><b>Category:</b> {{receipt.category}} &nbsp;&nbsp;&nbsp;&nbsp;<b>Date:</b> {{receipt.dateReceipt}}</p>
         <p><b>Total:</b> {{receipt.price}}</p>
+        <p><b style="color: red">{{receipt.online==0 ? 'Receipt is offline':''}}</b>
+          <b style="color: limegreen">{{receipt.online==1 ? 'Receipt is online' : ''}}</b></p>
         <i class="icon ion-chevron-right icon-accessory"></i>
 
         <!--<button class="button ion-android-delete" ng-click="removeReceipt(receipt._id)"></button>-->

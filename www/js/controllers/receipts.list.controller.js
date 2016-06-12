@@ -6,13 +6,6 @@ angular.module('receiptsList.controllers', [])
       $scope.getReceipts();
     });
 
-    $scope.$on("$ionicView.destroy", function (event) {
-      $timeout.cancel(timer);
-    });
-
-    var timer = $timeout(function () {
-      console.log("Timeout executed", Date.now());
-    }, 2000);
 
 
     $scope.getReceipts = function () {
@@ -42,31 +35,20 @@ angular.module('receiptsList.controllers', [])
       if ($window.sessionStorage.token != undefined) {
         DefService.goTo('tab.receipt-upload');
       } else {
-        DefService.messagesMaker("You must be logged in to send receipts");
-        DefService.goTo('signin');
+
+        DefService.signInMessage();
       }
 
     };
 
-    /*    $scope.downloadReceipts = function () {
-     if ($window.sessionStorage.token != undefined) {
-
-
-     DefService.goTo('tab.receipt-upload');
-     } else {
-     DefService.messagesMaker("You must be logged in to download receipts");
-     DefService.goTo('signin');
-     }
-
-     };*/
 
     $scope.downloadReceipts = function () {
 
       $scope.receipts = [];
 
-
+console.log($window.sessionStorage.token);
       if ($window.sessionStorage.token == undefined) {
-        DefService.messagesMaker("You're not logged in");
+        DefService.signInMessage();
       } else {
 
         var token = 'JWT ' + $window.sessionStorage.token;
@@ -92,6 +74,7 @@ angular.module('receiptsList.controllers', [])
       DatabaseService.remove(receiptId).then(function () {
 
         $scope.getReceipts();
+
 
       }, function (error) {
         console.log(error);

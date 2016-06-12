@@ -108,6 +108,7 @@ angular.module('newReceipts.controllers', [])
           try {
             ReceiptsServer.insertReceiptWithImageOnly(receipt).then(function () {
               console.log("send success");
+              console.log(receipt);
               DatabaseService.updateOnlineStatus(receipt._id);
 
               DefService.goTo('tab.receiptsList');
@@ -141,7 +142,7 @@ angular.module('newReceipts.controllers', [])
           type: 'button-default',
           onTap: function() {
             if ($window.sessionStorage.token == undefined) {
-              DefService.messagesMaker("You must be logged in");
+              DefService.signInMessage();
             } else {
               $scope.addReceiptsToServer();
               $scope.receiptsImagesList = [];
@@ -170,7 +171,6 @@ angular.module('newReceipts.controllers', [])
     var getFilesHelper = function (file) {
       DefService.show();
       PhotosAndFilesService.readFiles(file, $scope).then(function (selectedImages) {
-
         $scope.receiptsImagesList.push(selectedImages);
         DefService.hide();
       }, function (error) {

@@ -69,11 +69,6 @@ angular.module('photos.and.files.services', [])
 
         var deferred = $q.defer();
 
-        /*for (var i = 0; i < file.length; i++) {
-         var reader = getReader(deferred, scope);
-         reader.readAsDataURL(file[i]);
-
-         }*/
         var reader = getReader(deferred, scope);
         reader.readAsDataURL(file);
         return deferred.promise;

@@ -2,296 +2,185 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8c18c3-c7a8-4a11-b033-3444b5ca21c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-hdpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-ldpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-mdpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-xhdpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-xxhdpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-xxxhdpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-hdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-ldpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-mdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-xhdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxhdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxxhdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-hdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-ldpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-mdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-xhdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxhdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxxhdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-40@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-50.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-50@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-60@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-60@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-72@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-76.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-76@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-small@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-small@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-568h@2x~iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-667h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-736h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape-736h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape@2x~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait@2x~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/splash/Default@2x~iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/splash/Default~iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/splash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/img/facebook-login-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/img/facebook2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/img/files-icon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular/angular.min.js.gzip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/MadReceipt_node_modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/controllers/create.account.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/controllers/new.receipts.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/controllers/receipt.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/controllers/receipts.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/controllers/receipts.list.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/controllers/server.upload.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/controllers/statistics.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/services/database.services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/services/default.services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/services/photos.and.files.services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/services/server.services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/.codeclimate.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/.eslintignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/.eslintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/.github/ISSUE_TEMPLATE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/.github/PULL_REQUEST_TEMPLATE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/config.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/dist/Chart.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/dist/Chart.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/dist/Chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/dist/Chart.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/docs/00-Getting-Started.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/docs/01-Chart-Configuration.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/docs/02-Scales.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/docs/03-Line-Chart.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/docs/04-Bar-Chart.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/docs/05-Radar-Chart.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/docs/06-Polar-Area-Chart.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/docs/07-Pie-Doughnut-Chart.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/docs/08-Bubble-Chart.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/docs/09-Advanced.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/docs/10-Notes.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/karma.conf.ci.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/karma.coverage.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/AnimationCallbacks/progress-bar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/bar-horizontal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/bar-multi-axis.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/bar-stacked.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/bar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/bubble.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/combo-bar-line.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/data_label_combo-bar-line.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/different-point-sizes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/doughnut.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/line-customTooltips.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/line-legend.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/line-logarithmic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/line-multi-axis.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/line-skip-points.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/line-stacked-area.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/line-x-axis-filter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/line.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/pie-customTooltips.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/pie.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/polar-area.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/radar-skip-points.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/radar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/scatter-logX.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/scatter-multi-axis.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/scatter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/timeScale/combo-time-scale.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/timeScale/line-time-point-data.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/timeScale/line-time-scale.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/samples/tooltip-hooks.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/charts/Chart.Bar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/charts/Chart.Bubble.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/charts/Chart.Doughnut.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/charts/Chart.Line.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/charts/Chart.PolarArea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/charts/Chart.Radar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/charts/Chart.Scatter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/controllers/controller.bar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/controllers/controller.bubble.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/controllers/controller.doughnut.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/controllers/controller.line.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/controllers/controller.polarArea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/controllers/controller.radar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.animation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.datasetController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.element.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.helpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.layoutService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.legend.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.scale.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.scaleService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.title.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/elements/element.arc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/elements/element.line.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/elements/element.point.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/elements/element.rectangle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/scales/scale.category.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/scales/scale.linear.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/scales/scale.logarithmic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/scales/scale.radialLinear.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/src/scales/scale.time.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/controller.bar.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/controller.bubble.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/controller.doughnut.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/controller.line.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/controller.polarArea.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/controller.radar.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/core.element.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/core.helpers.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/core.layoutService.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/core.legend.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/core.plugin.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/core.scaleService.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/core.title.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/defaultConfig.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/element.arc.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/element.line.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/element.point.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/element.rectangle.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/mockContext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/scale.category.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/scale.linear.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/scale.logarithmic.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/scale.radialLinear.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/Chart.js/test/scale.time.tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-animate/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-animate/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-animate/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-animate/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-animate/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-fileupload/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-fileupload/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-fileupload/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-fileupload/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-fileupload/angular-filereader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-fileupload/angular-filereader.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-fileupload/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-fileupload/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-fileupload/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-fileupload/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-fileupload/src/filereader.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/angular-sanitize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/angular-sanitize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/angular-sanitize.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/api/angular-ui-router.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/release/angular-ui-router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/release/angular-ui-router.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/resolve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/stateDirectives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/stateFilters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/templateFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/urlMatcherFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/urlRouter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/view.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/viewDirective.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/viewScroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular/angular-csp.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular/angular.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ng-chartjs/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ng-chartjs/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ng-chartjs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ng-chartjs/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ng-chartjs/demo/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ng-chartjs/demo/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ng-chartjs/dist/angular-chartjs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ng-chartjs/dist/angular-chartjs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ng-chartjs/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ng-chartjs/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ng-chartjs/src/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ng-chartjs/src/js/spec/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ngCordova/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ngCordova/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ngCordova/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ngCordova/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ngCordova/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ngCordova/dist/ng-cordova-mocks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ngCordova/dist/ng-cordova-mocks.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ngCordova/dist/ng-cordova.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ngCordova/dist/ng-cordova.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ngCordova/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/platform.js/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/platform.js/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/platform.js/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/platform.js/platform.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/create-account.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/receipt-detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/receipts-server-upload.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/tab-new-receipts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/tab-receipts-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/tab-statistics.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/ionic.png" afterPath="$PROJECT_DIR$/www/img/ionic2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/ionic.png" afterPath="$PROJECT_DIR$/www/img/ionic.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/MadReceipt.iml" afterPath="$PROJECT_DIR$/.idea/MadReceipt.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/img/facebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/facebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-chart.js/dist/angular-chart.js.tar.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-chart.js/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-chart.js/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-chart.js/Dockerfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-chart.js/ISSUE_TEMPLATE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-chart.js/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-chart.js/PULL_REQUEST_TEMPLATE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-chart.js/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-chart.js/angular-chart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-chart.js/angular-chart.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-chart.js/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-chart.js/dist/angular-chart.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-chart.js/dist/angular-chart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-chart.js/dist/angular-chart.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-chart.js/dist/angular-chart.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-chart.js/dist/angular-chart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-chart.js/dist/angular-chart.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-chart.js/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-chart.js/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/chart/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/chart/Chart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/chart/bower.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/.codeclimate.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/.eslintignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/.github/ISSUE_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/.github/PULL_REQUEST_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/config.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/dist/Chart.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/dist/Chart.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/dist/Chart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/dist/Chart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/docs/00-Getting-Started.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/docs/01-Chart-Configuration.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/docs/02-Scales.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/docs/03-Line-Chart.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/docs/04-Bar-Chart.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/docs/05-Radar-Chart.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/docs/06-Polar-Area-Chart.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/docs/07-Pie-Doughnut-Chart.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/docs/08-Bubble-Chart.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/docs/09-Advanced.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/docs/10-Notes.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/karma.conf.ci.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/karma.coverage.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/AnimationCallbacks/progress-bar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/bar-horizontal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/bar-multi-axis.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/bar-stacked.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/bar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/bubble.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/combo-bar-line.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/data_label_combo-bar-line.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/different-point-sizes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/doughnut.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/line-customTooltips.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/line-legend.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/line-logarithmic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/line-multi-axis.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/line-skip-points.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/line-stacked-area.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/line-x-axis-filter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/line.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/pie-customTooltips.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/pie.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/polar-area.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/radar-skip-points.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/radar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/scatter-logX.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/scatter-multi-axis.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/scatter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/timeScale/combo-time-scale.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/timeScale/line-time-point-data.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/timeScale/line-time-scale.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/samples/tooltip-hooks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/chart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/charts/Chart.Bar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/charts/Chart.Bubble.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/charts/Chart.Doughnut.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/charts/Chart.Line.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/charts/Chart.PolarArea.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/charts/Chart.Radar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/charts/Chart.Scatter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/controllers/controller.bar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/controllers/controller.bubble.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/controllers/controller.doughnut.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/controllers/controller.line.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/controllers/controller.polarArea.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/controllers/controller.radar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.animation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.datasetController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.element.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.layoutService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.legend.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.scale.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.scaleService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.title.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/core/core.tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/elements/element.arc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/elements/element.line.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/elements/element.point.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/elements/element.rectangle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/scales/scale.category.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/scales/scale.linear.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/scales/scale.logarithmic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/scales/scale.radialLinear.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/src/scales/scale.time.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/controller.bar.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/controller.bubble.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/controller.doughnut.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/controller.line.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/controller.polarArea.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/controller.radar.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/core.element.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/core.helpers.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/core.layoutService.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/core.legend.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/core.plugin.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/core.scaleService.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/core.title.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/defaultConfig.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/element.arc.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/element.line.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/element.point.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/element.rectangle.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/mockContext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/scale.category.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/scale.linear.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/scale.logarithmic.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/scale.radialLinear.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/Chart.js/test/scale.time.tests.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/icon.png" afterPath="$PROJECT_DIR$/www/img/icon1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/icon.png" afterPath="$PROJECT_DIR$/www/img/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/www/lib/angular/angular.min.js.gzip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/new.receipts.controller.js" afterPath="$PROJECT_DIR$/www/js/controllers/new.receipts.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/receipt.controller.js" afterPath="$PROJECT_DIR$/www/js/controllers/receipt.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/receipts.list.controller.js" afterPath="$PROJECT_DIR$/www/js/controllers/receipts.list.controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/sign.in.controller.js" afterPath="$PROJECT_DIR$/www/js/controllers/sign.in.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/start.page.controller.js" afterPath="$PROJECT_DIR$/www/js/controllers/start.page.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/statistics.controller.js" afterPath="$PROJECT_DIR$/www/js/controllers/statistics.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/services/default.services.js" afterPath="$PROJECT_DIR$/www/js/services/default.services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/services/photos.and.files.services.js" afterPath="$PROJECT_DIR$/www/js/services/photos.and.files.services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/Chart.js/.bower.json" afterPath="$PROJECT_DIR$/www/lib/Chart.js/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/Chart.js/bower.json" afterPath="$PROJECT_DIR$/www/lib/Chart.js/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/.bower.json" afterPath="$PROJECT_DIR$/www/lib/angular/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/angular-csp.css" afterPath="$PROJECT_DIR$/www/lib/angular/angular-csp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/angular.js" afterPath="$PROJECT_DIR$/www/lib/angular/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/angular.min.js" afterPath="$PROJECT_DIR$/www/lib/angular/angular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/www/lib/angular/angular.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/bower.json" afterPath="$PROJECT_DIR$/www/lib/angular/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/package.json" afterPath="$PROJECT_DIR$/www/lib/angular/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/create-account.html" afterPath="$PROJECT_DIR$/www/templates/create-account.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/receipt-detail.html" afterPath="$PROJECT_DIR$/www/templates/receipt-detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/sign-in.html" afterPath="$PROJECT_DIR$/www/templates/sign-in.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/start-page.html" afterPath="$PROJECT_DIR$/www/templates/start-page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/tab-new-receipts.html" afterPath="$PROJECT_DIR$/www/templates/tab-new-receipts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/tab-receipts-list.html" afterPath="$PROJECT_DIR$/www/templates/tab-receipts-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/tab-statistics.html" afterPath="$PROJECT_DIR$/www/templates/tab-statistics.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/tabs.html" afterPath="$PROJECT_DIR$/www/templates/tabs.html" />
     </list>
     <ignored path="MadReceipt.iws" />
@@ -313,71 +202,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <file leaf-file-name="statistics.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/controllers/statistics.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.21334793">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
+      <file leaf-file-name="receipts.list.controller.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/js/controllers/receipts.list.controller.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/services.js">
+      <file leaf-file-name="tab-statistics.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/tab-statistics.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start.page.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/controllers/start.page.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tabs.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/tabs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tab-new-receipts.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/tab-new-receipts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-28.125">
+              <caret line="45" column="10" selection-start-line="15" selection-start-column="4" selection-end-line="45" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -386,18 +235,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.services.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/services/server.services.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-32.083332">
+              <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -414,12 +253,24 @@
         <option value="$PROJECT_DIR$/www/js/controllers/start.page.controller.js" />
         <option value="$PROJECT_DIR$/www/templates/auth.html" />
         <option value="$PROJECT_DIR$/www/js/controllers/sign.in.controller.js" />
-        <option value="$PROJECT_DIR$/www/css/style.css" />
-        <option value="$PROJECT_DIR$/www/templates/tab-new-receipts.html" />
+        <option value="$PROJECT_DIR$/www/templates/start-page.html" />
+        <option value="$PROJECT_DIR$/www/js/controllers/receipts.list.controller.js" />
+        <option value="$PROJECT_DIR$/www/js/services/photos.and.files.services.js" />
         <option value="$PROJECT_DIR$/www/js/controllers/new.receipts.controller.js" />
+        <option value="$PROJECT_DIR$/www/js/app.js" />
+        <option value="$PROJECT_DIR$/www/templates/tab-new-receipts.html" />
+        <option value="$PROJECT_DIR$/www/templates/tab-receipts-list.html" />
+        <option value="$PROJECT_DIR$/www/templates/create-account.html" />
+        <option value="$PROJECT_DIR$/www/templates/receipt-detail.html" />
+        <option value="$PROJECT_DIR$/www/templates/sign-in.html" />
+        <option value="$PROJECT_DIR$/www/js/services/default.services.js" />
+        <option value="$PROJECT_DIR$/www/js/controllers/receipt.controller.js" />
         <option value="$PROJECT_DIR$/www/templates/tabs.html" />
         <option value="$PROJECT_DIR$/www/index.html" />
-        <option value="$PROJECT_DIR$/www/js/app.js" />
+        <option value="$PROJECT_DIR$/www/css/style.css" />
+        <option value="$PROJECT_DIR$/www/js/services/database.services.js" />
+        <option value="$PROJECT_DIR$/www/templates/tab-statistics.html" />
+        <option value="$PROJECT_DIR$/www/js/controllers/statistics.controller.js" />
       </list>
     </option>
   </component>
@@ -545,54 +396,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chart.js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MadReceipt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MadReceipt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chart.js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MadReceipt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MadReceipt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -655,59 +458,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MadReceipt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MadReceipt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MadReceipt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MadReceipt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -716,11 +479,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/www/css/img" />
+      <recent name="$PROJECT_DIR$/www/img" />
+      <recent name="$PROJECT_DIR$/www/lib" />
       <recent name="$PROJECT_DIR$/www/css" />
       <recent name="$PROJECT_DIR$/www" />
-      <recent name="$PROJECT_DIR$/www/lib" />
-      <recent name="$PROJECT_DIR$/www/templates" />
-      <recent name="$PROJECT_DIR$/www/js" />
     </key>
   </component>
   <component name="RunManager">
@@ -781,6 +544,13 @@
       <option name="number" value="Default" />
       <updated>1465154497357</updated>
     </task>
+    <task id="LOCAL-00001" summary="Stworzenie interfejsu">
+      <created>1465163662775</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1465163662775</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -791,85 +561,60 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1767466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38322717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60509557" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973932" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Stworzenie interfejsu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stworzenie interfejsu" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/controllers/start.page.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -885,7 +630,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -901,7 +648,75 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/start.page.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/tabs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/tab-new-receipts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/services/server.services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -913,38 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/start-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/sign-in.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.653846">
-          <caret line="30" column="72" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/services/server.services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/lib/ngCordova/dist/ng-cordova.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -952,11 +735,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/start.page.controller.js">
+    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.4595186">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -964,31 +746,82 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
+    <entry file="file://$PROJECT_DIR$/www/lib/ng-chartjs/demo/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.032822758">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-new-receipts.html">
+    <entry file="file://$PROJECT_DIR$/www/lib/ng-chartjs/demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.033707865">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="4" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/lib/chart/Chart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/sign.in.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36105034">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/img/files-icon.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/services/server.services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4310722">
+          <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/server.upload.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32822758">
+          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tabs.html">
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/start.page.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/start-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/services/photos.and.files.services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -999,18 +832,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/new.receipts.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="1.1847134">
+          <caret line="62" column="57" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3821656">
+          <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/create-account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13797635">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/create.account.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17197452">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33248407">
+          <caret line="126" column="14" selection-start-line="126" selection-start-column="14" selection-end-line="126" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/receipt-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/img/facebook2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/img/facebook-login-blue.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/tab-new-receipts.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="23" selection-end-column="91" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/sign-in.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/services/default.services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="93" selection-start-line="2" selection-start-column="93" selection-end-line="2" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/receipt.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75">
+          <caret line="14" column="88" selection-start-line="14" selection-start-column="88" selection-end-line="14" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/tabs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5898876">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-32.083332">
+          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/lib/ionic/css/ionic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34157303">
+          <caret line="6647" column="1" selection-start-line="6647" selection-start-column="1" selection-end-line="6647" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/services/database.services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.21334793">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/tab-receipts-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28651685">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#b#0;n#p#2;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#1;n#p#2;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/receipts.list.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/tab-statistics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.125">
+          <caret line="45" column="10" selection-start-line="15" selection-start-column="4" selection-end-line="45" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/statistics.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21334793">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding />
         </state>
       </provider>

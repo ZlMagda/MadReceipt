@@ -1,13 +1,12 @@
 
 <ion-view view-title="Receipt details">
   <ion-content class="padding" >
-    <button class="button ion-android-delete" ng-click="removeReceipt(receipt._id)">&nbsp;&nbsp;&nbsp;Delete this receipt</button>
-
+    <button class="button ion-android-delete" ng-click="removeReceipt(receipt)">&nbsp;&nbsp;&nbsp;Delete this receipt</button>
 
     <form style="" class="list">
     <ion-list style="">
 
-      <div class="test1"><img ng-src="{{receipt.att}}" style="width: 200px; height: 200px"></div>
+      <div class="test1" style="align-content: center"><img ng-src="{{receipt.att}}" style="width: 200px; height: 200px"></div>
 
       <label style="" class="item item-input">
         <span class="input-label">Category</span>
@@ -23,7 +22,7 @@
       </label>
       <label style="" class="item item-input">
         <span class="input-label">Date</span>
-        <input placeholder="" type="date" ng-model="receipt.dateReceipt">
+        <input placeholder="" type="date" data-date-format="DD/MM/YYYY" ng-model="receipt.dateReceipt">
       </label>
       <label style="" class="item item-input">
         <span class="input-label">Created</span>
@@ -42,10 +41,11 @@
         <textarea placeholder="" type="text" rows="5" ng-model="receipt.textReceipt">{{receipt.textReceipt}}</textarea>
       </label>
     </ion-list>
+      <div class="button-bar">
+        <button class="button button-dark  button-block" id="updateReceiptOnServer-button" ng-click="updateReceiptOnServer(receipt)">Update online</button>
     <button class="button button-energized  button-block" id="updateReceipt-button" ng-click="updateReceipt(receipt)">Update</button>
-      <button class="button button-energized  button-block" id="updateReceiptOnServer-button"
-              ng-click="updateReceiptOnServer(receipt)">Update online
-      </button>
+
+        </div>
     </form>
 
   </ion-content>

@@ -19,6 +19,13 @@
   filter: alpha(opacity=0);
 }
 
+
+button.right-buttons{
+  float: right;
+
+}
+
+
 input[type=submit] {
   background-image: url("img/facebook-login-blue.png");
   width: 150px;
@@ -135,3 +142,5 @@ div.spacer {
 * {
   -webkit-font-smoothing: antialiased !important;
 }
+
+
