@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic',  'ngCordova', 'jkuri.datepicker', 'chart.js', 'ion-floating-menu', 'starter.controllers', 'starter.services',  'ngCordova', 'default.services', 'start.page.controllers', 'sign.in.controllers', 'account.controllers', 'newReceipts.controllers', 'receipt.controllers', 'serverUpload.controllers', 'receiptsList.controllers', 'statistics.controllers', 'server.services', 'photos.and.files.services', 'database.services'])
+angular.module('starter', ['ionic',  'ngCordova', 'chart.js', 'ion-floating-menu', 'starter.controllers', 'starter.services',  'ngCordova', 'default.services', 'start.page.controllers', 'sign.in.controllers', 'account.controllers', 'newReceipts.controllers', 'receipt.controllers', 'serverUpload.controllers', 'receiptsList.controllers', 'statistics.controllers', 'server.services', 'photos.and.files.services', 'database.services'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
