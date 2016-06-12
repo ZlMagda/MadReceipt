@@ -10,40 +10,45 @@
   </ion-nav-buttons>
   <ion-content>
 
-    <h1>Simple Line chart for Ionic</h1>
-    <canvas id="bar" class="chart chart-line" data="graph.data" labels="graph.labels" series='graph.series' height="50"></canvas>
+
+
+    <div class="card">
+    <div class="item item-divider item-dark">
+      Number of receipts by category
+    </div>
+    <div class="item item-text-wrap">
+      <div id="categoryDiv" class="span5">
+        <canvas id="category-chart"></canvas>
+      </div>
+    </div>
+  </div>
 
     <div class="card">
       <div class="item item-divider item-energized">
         Total by date
       </div>
       <div class="item item-text-wrap">
-        <canvas id="line" class="chart chart-line" data="receiptsTotalByDate" labels="dates" legend="true" chart-legend="true" chart-series="series"
-                chart-click="onClick" responsive="true"
-                series="series" options="{showTooltips: true}" colours="medals_colours" ></canvas>
+        <div class="item item-text-wrap">
+          <div id="dateDiv" class="span5">
+            <canvas id="date-chart"></canvas>
+          </div>
+        </div>
+        <h6>Total of all receipts: {{totalSum}}</h6>
       </div>
-      <h6>Total of all receipts: {{totalSum}}</h6>
-    </div>
-    <div class="card">
-      <div class="item item-divider item-dark">
-        Total by company
       </div>
-      <div class="item item-text-wrap">
-        <canvas id="bar1" class="chart chart-bar" data="receiptsTotalByCompany" labels="companies" legend="true" responsive="true" colours="[{fillColor:['#DAF7A6', '#FFC300', '#FF5733', '#C70039', '#581845']}]"
-                series="series" options="{showTooltips: false}"></canvas>
-      </div>
-    </div>
 
 
-    <div class="card">
-      <div class="item item-divider item-energized">
-        Number of receipts by category
+      <div class="card">
+        <div class="item item-divider item-dark">
+          Total by company
+        </div>
+        <div class="item item-text-wrap">
+          <div id="companyDiv" class="span5">
+            <canvas id="company-chart"></canvas>
+          </div>
+
+        </div>
       </div>
-      <div class="item item-text-wrap">
-        <canvas id="bar2" class="chart chart-bar" data="receiptsByCategory" labels="categories" legend="true" responsive="true" colours="[{fillColor:[ '#FF5733', '#C70039','#DAF7A6']}]"
-                series="series" options="{showTooltips: false}"></canvas>
-      </div>
-    </div>
 
 
   </ion-content>

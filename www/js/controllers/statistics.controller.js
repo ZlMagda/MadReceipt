@@ -3,49 +3,14 @@ angular.module('statistics.controllers', [])
 
     $scope.$on('$ionicView.enter', function () {
 
+      console.log("in view enter");
       createDataForCategoryChart();
     });
 
-    $scope.graph = {};
-    /*$scope.graph.data = [
-
-      [16, 15, 20, 12, 16, 12, 8]
-    ];*/
-    //$scope.graph.labels = ['Mon', 'Tue'];
-    $scope.graph.series = ['Awake'];
-
-
-    var getDateList = function () {
-      var receiptsList = getReceiptsForStatistics();
-
-      for (var i = 0; i < receiptsList.length; i++) {
-
-        if(receiptsList[i].dateReceipt != undefined || receiptsList[i].dateReceipt != undefined) {
-          dateList.push(formShortDate(receiptsList[i].dateReceipt));
-        }
-
-      }
-
-      dateList = sortDateArray(dateList);
-      dateList = unique(dateList);
-
-      return dateList;
+    $scope.onClick = function (points, evt) {
+      console.log(points, evt);
     };
 
-
-    var getReceiptsForStatistics = function(){
-      try {
-        DatabaseService.selectAll().then(function (receiptsList) {
-          return receiptsList;
-        }, function (err) {
-          return null;
-
-        });
-
-        } catch (ex) {
-        return null;
-      }
-    };
 
 
     var createDataForCategoryChart = function () {
@@ -71,8 +36,8 @@ angular.module('statistics.controllers', [])
           for (var i = 0; i < receiptsList.length; i++) {
 
             if(receiptsList[i].dateReceipt != undefined || receiptsList[i].dateReceipt != undefined) {
-             dateList.push(formShortDate(receiptsList[i].dateReceipt));
-             }
+              dateList.push(formShortDate(receiptsList[i].dateReceipt));
+            }
 
 
             companyList.push(receiptsList[i].companyName);
@@ -102,7 +67,6 @@ angular.module('statistics.controllers', [])
           }
           categoriesList[categoriesList.indexOf(null)] = "Category is not defined";
 
-
           var receiptsNoWrapper = [];
 
           $scope.categories = categoriesList;
@@ -119,13 +83,33 @@ angular.module('statistics.controllers', [])
           receiptsTotalByCompanyWrapper.push(receiptsTotalByCompany);
           $scope.receiptsTotalByCompany = receiptsTotalByCompanyWrapper;
 
-          $scope.graph.data = receiptsTotalByDateWrapper;
-          $scope.graph.labels = dateList;
 
-          console.log($scope.categories);
-          console.log(receiptsTotalByDate);
+          $(window).resize(respondDateCanvas);
+          var dt = $('#date-chart');
+          var dtt = dt.get(0).getContext('2d');
+          var dttx = document.getElementById("date-chart").getContext("2d");
+
+
+
+          respondCategoriesCanvas(categoriesChartData(categoriesList,receiptsNoByCategory));
+          respondCompaniesCanvas(companyChartData(companyList, receiptsTotalByCompany));
+          respondDateCanvas(dateChartData(dateList, receiptsTotalByDate), dtt);
+
+
+
+
+
+          console.log(categoriesList);
+          console.log(receiptsNoByCategory);
+          console.log(companyList);
+          console.log(receiptsTotalByCompany);
           console.log(dateList);
-          console.log($scope.receiptsTotalByDate);
+          console.log(receiptsTotalByDate);
+
+          //console.log($scope.categories);
+          //console.log(receiptsTotalByDate);
+          //console.log(dateList);
+          //console.log($scope.receiptsTotalByDate);
 
           $scope.totalSum = totalSum;
 
@@ -175,9 +159,9 @@ angular.module('statistics.controllers', [])
     var formShortDate = function (longDate) {
       var date = new Date(longDate);
       /*console.log(longDate);
-      console.log(date.getFullYear());
-      console.log(date.getMonth()+1);
-      console.log(date.getDate());*/
+       console.log(date.getFullYear());
+       console.log(date.getMonth()+1);
+       console.log(date.getDate());*/
       var shortDate = date.getFullYear() + "-" + (date.getMonth()+1) + "-" + date.getDate();
       return shortDate;
     };
@@ -241,5 +225,86 @@ angular.module('statistics.controllers', [])
     };
 
 
+
+    var categoriesChartData = function(categories,receiptsNoByCategory){
+      return {
+        labels: categories,
+        datasets: [{
+          fillColor: ['#DAF7A6', '#FFC300', '#FF5733', '#C70039', '#581845'],
+          data: receiptsNoByCategory
+        }]
+      }
+    };
+
+    var options = {animation : false};
+
+    //Get the context of the canvas element we want to select
+    var c = $('#category-chart');
+    var ct = c.get(0).getContext('2d');
+    var ctx = document.getElementById("category-chart").getContext("2d");
+
+    $(window).resize(respondCategoriesCanvas);
+
+    function respondCategoriesCanvas(data) {
+      c.attr('width', jQuery("#categoryDiv").width());
+      c.attr('height', jQuery("#categoryDiv").height()*3);
+      newCategoriesChart = new Chart(ct).Bar(data, options);
+    }
+
+
+
+
+
+    var companyChartData = function(companies,receiptsNoByCompany){
+      return {
+        labels: companies,
+        datasets: [{
+          fillColor: ['#DAF7A6', '#FFC300', '#FF5733', '#C70039', '#581845'],
+          data: receiptsNoByCompany
+        }]
+      }
+    };
+
+    //Get the context of the canvas element we want to select
+    var comp = $('#company-chart');
+    var compt = comp.get(0).getContext('2d');
+    var comptx = document.getElementById("company-chart").getContext("2d");
+
+    $(window).resize(respondCompaniesCanvas);
+
+    function respondCompaniesCanvas(data) {
+
+
+
+      console.log("in resize");
+      comp.attr('width', jQuery("#companyDiv").width());
+      comp.attr('height', jQuery("#companyDiv").height()*3);
+      console.log(jQuery("#companyDiv").width());
+      console.log(jQuery("#companyDiv").width()*3);
+      newCompaniesChart = new Chart(compt).Bar(data, options);
+    }
+
+
+
+
+
+    var dateChartData = function(dates,totalNoByDate){
+      return {
+        labels: dates,
+        datasets: [{
+
+          strokeColor: "rgba(220,220,220,1)",
+          data: totalNoByDate
+        }]
+      }
+    };
+
+
+
+    function respondDateCanvas(data, dtt) {
+      comp.attr('width', jQuery("#dateDiv").width());
+      comp.attr('height', jQuery("#dateDiv").height()*3);
+      newDateChart = new Chart(dtt).Line(data, options);
+    }
 
   });
