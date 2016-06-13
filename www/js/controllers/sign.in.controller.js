@@ -10,9 +10,11 @@ angular.module('sign.in.controllers', [])
       url = url + "start-page";
       console.log(url);
 
+      $scope.redirectUrl = url;
+
     });
 
-    $scope.pageUrl = function(){
+    /*$scope.pageUrl = function(){
       console.log( $location.absUrl());
 
       var url= $location.absUrl();
@@ -20,7 +22,7 @@ angular.module('sign.in.controllers', [])
 
       url = url + "start-page";
       return url;
-    };
+    };*/
 
 
     $scope.signIn = function (email, password) {

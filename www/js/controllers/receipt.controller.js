@@ -30,7 +30,12 @@ angular.module('receipt.controllers', [])
 
       if(receipt.online == 1){
         ReceiptsServer.deleteReceipt(receipt.server_id).then(function (message) {
-          DefService.goTo('tab.receiptsList');
+
+          DatabaseService.remove(receipt._id).then(function () {
+            $state.go('tab.receiptsList');
+          }, function (error) {
+            console.log(error);
+          });
 
         }, function (error) {
           if (error.data == "Unauthorized") {

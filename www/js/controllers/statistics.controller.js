@@ -290,7 +290,7 @@ angular.module('statistics.controllers', [])
       return {
         labels: companies,
         datasets: [{
-          fillColor: ['#DAF7A6', '#FFC300', '#FF5733', '#C70039', '#581845'],
+          fillColor: '#C70039',
           data: receiptsNoByCompany
         }]
       }
@@ -311,7 +311,7 @@ angular.module('statistics.controllers', [])
       comp.attr('height', jQuery("#companyDiv").height() * 3);
       console.log(jQuery("#companyDiv").width());
       console.log(jQuery("#companyDiv").width() * 3);
-      newCompaniesChart = new Chart(compt).Bar(data, options);
+      newCompaniesChart = new Chart(compt).Line(data, options);
     }
 
 
