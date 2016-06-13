@@ -5,6 +5,8 @@
 
 
 
+
+
     <div class="item item-text-wrap">
       <div class="list">
         <label class="item item-input">
@@ -21,14 +23,14 @@
         <button class="button button-block button-dark" ng-click="signIn(user.email, user.password)">
           Sign-In
         </button>
+        <div align="right">
 
-        <form method="post" action="https://walletapplication.herokuapp.com/api/facebook/login">
-          <input type="hidden" name='redirectTo' id='redirectTo' type='text' value="{{redirectUrl}}">
-          <!--<input type="hidden" name='redirectTo' id='redirectTo' type='text' value='{{redirectPage}}'>-->
-          <input class="button button-block button-dark" type="submit" name="send" value="Login with Facebook">
-        </form>
-
-
+          <form method="post" action="https://walletapplication.herokuapp.com/api/facebook/login">
+            <input type="hidden" name='redirectTo' id='redirectTo' type='text' value='{{redirectUrl}}'>
+            <!--<input type="hidden" name='redirectTo' id='redirectTo' type='text' value='{{redirectPage}}'>-->
+            <input class="button icon ion-social-facebook-outline button-block button-positive" type="submit" name="send" value="Login with Facebook">
+          </form>
+        </div>
 
         <p class="text-center">
           <a href="#/forgot-password">Forgot password</a>

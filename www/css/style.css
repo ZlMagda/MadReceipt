@@ -26,12 +26,6 @@ button.right-buttons{
 }
 
 
-input[type=submit] {
-  background-image: url("img/facebook.png");
-  background-repeat: no-repeat;
-  background-size: 47px;
-  background-position: 42% center;
-}
 
 .gallery {
   -webkit-flex-wrap: wrap;
