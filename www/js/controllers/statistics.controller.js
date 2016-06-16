@@ -21,36 +21,58 @@ angular.module('statistics.controllers', [])
     });
 
 
-    /*    var canvas = document.getElementById('updating-chart'),
-     ctx = canvas.getContext('2d'),
-     startingData = {
-     labels: [1, 2, 3, 4, 5, 6, 7],
-     datasets: [
-     {
-     fillColor: "rgba(220,220,220,0.2)",
-     strokeColor: "rgba(220,220,220,1)",
-     pointColor: "rgba(220,220,220,1)",
-     pointStrokeColor: "#fff",
-     data: [65, 59, 80, 81, 56, 55, 40]
-     },
-     {
-     fillColor: "rgba(151,187,205,0.2)",
-     strokeColor: "rgba(151,187,205,1)",
-     pointColor: "rgba(151,187,205,1)",
-     pointStrokeColor: "#fff",
-     data: [28, 48, 40, 19, 86, 27, 90]
-     }
-     ]
-     },
-     latestLabel = startingData.labels[6];
+    var categoriesChart;
+    var companiesChart;
+    var dateChart;
 
-     var myLiveChart = new Chart(ctx).Line(startingData, {animationSteps: 15});
+    var categoriesChartData;
+    var companiesChartData;
+    var dateChartData;
+
+    var categoriesChartLabels;
+    var companiesChartLabels;
+    var dateChartLabels;
+
+    var categoriesIndex;
+    var companiesIndex;
+    var dateIndex;
+
+    var itemsOnChart = 4;
 
 
-     setInterval(function(){
-     myLiveChart.addData([Math.random() * 100, Math.random() * 100], ++latestLabel);
-     myLiveChart.removeData();
-     }, 5000);*/
+    setInterval(function () {
+
+      if (categoriesIndex >= (categoriesChartData.length - 1)) {
+        categoriesIndex = 0;
+      } else {
+        ++categoriesIndex;
+      }
+
+      if (companiesIndex >= (companiesChartData.length - 1)) {
+        companiesIndex = 0;
+      } else {
+        ++companiesIndex;
+      }
+
+      if (dateIndex >= (dateChartData.length - 1)) {
+        dateIndex = 0;
+      } else {
+        dateIndex++;
+      }
+
+
+      companiesChart.addData([companiesChartData[companiesIndex]], companiesChartLabels[companiesIndex]);
+      companiesChart.removeData();
+
+
+      categoriesChart.addData([categoriesChartData[categoriesIndex]], categoriesChartLabels[categoriesIndex]);
+      categoriesChart.removeData();
+
+      dateChart.addData([dateChartData[dateIndex]], dateChartLabels[dateIndex]);
+      dateChart.removeData();
+
+
+    }, 5000);
 
 
     var createDataForCategoryChart = function () {
@@ -92,8 +114,9 @@ angular.module('statistics.controllers', [])
             }
           }
 
-          dateList = sortDateArray(dateList);
           dateList = unique(dateList);
+          dateList = sortDateArray(dateList);
+
           companyList = unique(companyList);
 
           for (var i = 0; i < dateList.length; i++) {
@@ -112,30 +135,30 @@ angular.module('statistics.controllers', [])
 
           var receiptsNoWrapper = [];
 
-          $scope.categories = categoriesList;
-          receiptsNoWrapper.push(receiptsNoByCategory);
-          $scope.receiptsByCategory = receiptsNoWrapper;
+          categoriesChartLabels = categoriesList;
+          categoriesChartData = receiptsNoByCategory;
+          categoriesIndex = 0;
 
-          $scope.dates = dateList;
-          var receiptsTotalByDateWrapper = [];
-          receiptsTotalByDateWrapper.push(receiptsTotalByDate);
-          $scope.receiptsTotalByDate = receiptsTotalByDateWrapper;
+          dateChartLabels = dateList;
+          dateChartData = receiptsTotalByDate;
+          dateIndex = 0;
 
-          $scope.companies = companyList;
-          var receiptsTotalByCompanyWrapper = [];
-          receiptsTotalByCompanyWrapper.push(receiptsTotalByCompany);
-          $scope.receiptsTotalByCompany = receiptsTotalByCompanyWrapper;
+          companiesChartLabels = companyList;
+          companiesChartData = receiptsTotalByCompany;
+          companiesIndex = 0;
 
 
-          $(window).resize(respondDateCanvas);
-          var dt = $('#date-chart');
-          var dtt = dt.get(0).getContext('2d');
-          var dttx = document.getElementById("date-chart").getContext("2d");
+          console.log("subARray0");
+          console.log(dateList.subarray(0, 2));
 
 
-          respondCategoriesCanvas(categoriesChartData(categoriesList, receiptsNoByCategory));
-          respondCompaniesCanvas(companyChartData(companyList, receiptsTotalByCompany));
-          respondDateCanvas(dateChartData(dateList, receiptsTotalByDate), dtt);
+          respondCategoriesCanvas(categoriesChartDataFunction(categoriesList.subarray(categoriesIndex, categoriesIndex + itemsOnChart), receiptsNoByCategory.subarray(categoriesIndex, categoriesIndex + itemsOnChart)));
+          respondCompaniesCanvas(companyChartDataFunction(companyList.subarray(companiesIndex, companiesIndex + itemsOnChart), receiptsTotalByCompany.subarray(companiesIndex, companiesIndex + itemsOnChart)));
+          respondDateCanvas(dateChartDataFunction(dateList.subarray(dateIndex, dateIndex + itemsOnChart), receiptsTotalByDate.subarray(dateIndex, dateIndex + itemsOnChart)), dtt);
+
+          companiesIndex = companiesIndex + itemsOnChart;
+          categoriesIndex = categoriesIndex + itemsOnChart;
+          dateIndex = dateIndex + itemsOnChart;
 
 
           console.log(categoriesList);
@@ -197,15 +220,19 @@ angular.module('statistics.controllers', [])
        console.log(date.getFullYear());
        console.log(date.getMonth()+1);
        console.log(date.getDate());*/
-      var shortDate = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
+      var shortDate = date.getFullYear() + "/" + (date.getMonth() + 1) + "/" + date.getDate();
       return shortDate;
     };
 
 
     var sortDateArray = function (dateArray) {
       dateArray.sort(function (a, b) {
-        var dateA = a.split("-");
-        var dateB = a.split("-");
+        var dateA = a.split("/");
+        var dateB = b.split("/");
+
+        /*console.log("in compare");
+        console.log(dateA);
+        console.log(dateB);*/
 
         if (dateA[0] < dateB[0]) {
           if (dateA[1] < dateB[1]) {
@@ -221,6 +248,18 @@ angular.module('statistics.controllers', [])
 
         } else if (dateA[0] > dateB[0]) {
           return 1;
+        } else if (dateA[0] == dateB[0]){
+          if (dateA[1] < dateB[1]) {
+            if (dateA[2] < dateB[2]) {
+              return -1;
+            } else if (dateA[2] > dateB[2]) {
+              return 1;
+            }
+          } else if (dateA[1] > dateB[1]) {
+            return 1;
+          }
+
+          return 0;
         }
 
 
@@ -250,6 +289,23 @@ angular.module('statistics.controllers', [])
       return newArr;
     };
 
+    var clone = function (obj) {
+      if (null == obj || "object" != typeof obj) return obj;
+      var copy = obj.constructor();
+      for (var attr in obj) {
+        if (obj.hasOwnProperty(attr)) copy[attr] = obj[attr];
+      }
+      return copy;
+    };
+
+    Array.prototype.subarray = function (start, end) {
+      if (end >= this.length) {
+        end = this.length;
+      }
+      var newArray = clone(this);
+      return newArray.slice(start, end);
+    };
+
 
     $scope.signInOut = function () {
       DefService.signInOut();
@@ -260,11 +316,11 @@ angular.module('statistics.controllers', [])
     };
 
 
-    var categoriesChartData = function (categories, receiptsNoByCategory) {
+    var categoriesChartDataFunction = function (categories, receiptsNoByCategory) {
       return {
         labels: categories,
         datasets: [{
-          fillColor: ['#DAF7A6', '#FFC300', '#FF5733', '#C70039', '#581845'],
+          fillColor: ['#581845'],
           data: receiptsNoByCategory
         }]
       }
@@ -282,15 +338,15 @@ angular.module('statistics.controllers', [])
     function respondCategoriesCanvas(data) {
       c.attr('width', jQuery("#categoryDiv").width());
       c.attr('height', jQuery("#categoryDiv").height() * 3);
-      newCategoriesChart = new Chart(ct).Bar(data, options);
+      categoriesChart = new Chart(ct).Bar(data, {animationSteps: 30});
     }
 
 
-    var companyChartData = function (companies, receiptsNoByCompany) {
+    var companyChartDataFunction = function (companies, receiptsNoByCompany) {
       return {
         labels: companies,
         datasets: [{
-          fillColor: '#C70039',
+          fillColor: '#FF5733',
           data: receiptsNoByCompany
         }]
       }
@@ -304,34 +360,33 @@ angular.module('statistics.controllers', [])
     $(window).resize(respondCompaniesCanvas);
 
     function respondCompaniesCanvas(data) {
-
-
-      console.log("in resize");
       comp.attr('width', jQuery("#companyDiv").width());
       comp.attr('height', jQuery("#companyDiv").height() * 3);
-      console.log(jQuery("#companyDiv").width());
-      console.log(jQuery("#companyDiv").width() * 3);
-      newCompaniesChart = new Chart(compt).Line(data, options);
+      companiesChart = new Chart(compt).Line(data, {animationSteps: 30});
     }
 
 
-    var dateChartData = function (dates, totalNoByDate) {
+    var dateChartDataFunction = function (dates, totalNoByDate) {
       return {
         labels: dates,
         datasets: [{
-
-          strokeColor: "rgba(220,220,220,1)",
+          fillColor: '#FF5733',
           data: totalNoByDate
         }]
       }
     };
+
+    $(window).resize(respondDateCanvas);
+    var dt = $('#date-chart');
+    var dtt = dt.get(0).getContext('2d');
+    var dttx = document.getElementById("date-chart").getContext("2d");
 
 
     function respondDateCanvas(data, dtt) {
       comp.attr('width', jQuery("#dateDiv").width());
       comp.attr('height', jQuery("#dateDiv").height() * 3);
 
-      newDateChart = new Chart(dtt).Line(data, options);
+      dateChart = new Chart(dtt).Line(data, {animationSteps: 30});
 
     }
 

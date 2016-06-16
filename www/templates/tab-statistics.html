@@ -11,34 +11,33 @@
   <ion-content>
 
 
-   <!-- <canvas id="updating-chart"></canvas>-->
-<center>
+    <center>
 
-    <div class="card" style="max-width: 1000px">
-    <div class="item item-divider item-dark">
-      Number of receipts by category
-    </div>
-    <div class="item item-text-wrap">
-      <div id="categoryDiv" class="span5">
-        <canvas id="category-chart"></canvas>
-      </div>
-    </div>
-  </div>
 
-    <div class="card" style="max-width: 1000px">
-      <div class="item item-divider item-energized">
-        Total by date
-      </div>
-      <div class="item item-text-wrap">
+      <div class="card" style="max-width: 1000px">
+        <div class="item item-divider item-dark">
+          Total by date
+        </div>
         <div class="item item-text-wrap">
-          <div id="dateDiv" class="span5">
-            <canvas id="date-chart"></canvas>
+          <div class="item item-text-wrap">
+            <div id="dateDiv" class="span5">
+              <canvas id="date-chart"></canvas>
+            </div>
+          </div>
+          <h6>Total of all receipts: {{totalSum}}</h6>
+        </div>
+      </div>
+
+      <div class="card" style="max-width: 1000px">
+        <div class="item item-divider item-energized">
+          Number of receipts by category
+        </div>
+        <div class="item item-text-wrap">
+          <div id="categoryDiv" class="span5">
+            <canvas id="category-chart"></canvas>
           </div>
         </div>
-        <h6>Total of all receipts: {{totalSum}}</h6>
       </div>
-      </div>
-
 
       <div class="card" style="max-width: 1000px">
         <div class="item item-divider item-dark">
@@ -51,7 +50,7 @@
 
         </div>
       </div>
-</center>
+    </center>
 
   </ion-content>
 </ion-view>
