@@ -169,7 +169,7 @@ angular.module('statistics.controllers', [])
           console.log(receiptsTotalByDate);
 
 
-          $scope.totalSum = totalSum;
+          $scope.totalSum = parseFloat(totalSum).toFixed(2);
 
           DefService.hide();
 
